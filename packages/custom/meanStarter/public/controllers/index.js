@@ -41,39 +41,39 @@ angular.module('mean.system').controller('IndexController', ['$scope', 'Global',
     };
 
     $scope.docs = [{
-      text: 'Overview',
-      link: 'http://learn.mean.io/#mean-technologies'
+      text: 'You, dear patient',
+      link: 'http://www.faceop.com'
     }, {
-      text: 'Packages',
-      link: 'http://learn.mean.io/#mean-packages'
+      text: 'My own story',
+      link: 'http://www.faceop.com'
     }, {
-      text: 'CLI',
-      link: 'http://learn.mean.io/#mean-cli'
+      text: 'Official information',
+      link: 'http://www.faceop.com'
     }, {
-      text: 'Network',
-      link: 'http://learn.mean.io/#mean-mean-network'
+      text: 'Medication',
+      link: 'http://www.faceop.com'
     }, {
-      text: 'Overriding',
-      link: 'http://learn.mean.io/#mean-packages-overriding-the-default-layouts'
+      text: 'this.huume = huume',
+      link: 'http://www.faceop.com'
     }, {
-      text: 'Contribution',
-      link: 'http://learn.mean.io/#mean-packages-contributing-your-package'
+      text: 'Risk factors',
+      link: 'http://www.faceop.com'
     }];
 
     $scope.communities = [{
-      link: 'https://facebook.com/groups/mean.io/',
-      text: 'Informal support, news and just hanging out',
+      link: 'n/a',
+      text: 'Lasaros FB group',
       icon: 'facebook'
     }, {
-      link: 'https://github.com/linnovate/mean/',
+      link: 'n/a',
       text: 'Issues, Support, Code discussions and PRs',
       icon: 'facebook'
     }, {
-      link: 'https://gitter.im/linnovate/mean/',
+      link: 'n/a',
       text: 'Support and Technical discussions',
-      icon: 'gitter'
+      icon: 'twitter'
     }, {
-      link: 'https://hangout.mean.io/',
+      link: 'n/a',
       text: 'Video support, shared coding and to meet the people behind mean.io',
       icon: 'hangout'
     }];
