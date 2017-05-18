@@ -28,8 +28,8 @@ necessary information as quickly and easily as possible even if there is a priva
 than maintaining privacy. (Privacy is important too!)
 
 2. Technical considerations
-LasarOS is technically build on the Linnovate's open source MEAN stack template:  https://github.com/linnovate/mean
-
+LasarOS is technically build on the Linnovate's open source MEAN (MEAN.IO) stack template:  https://github.com/linnovate/mean
+MEAN.IO is licensed under the MIT License (Copyright (C) 2012-2014 Linnovate Technologies)
 
 3. Material & links
 Heroku and rest: https://devcenter.heroku.com/articles/mean-apps-restful-api
