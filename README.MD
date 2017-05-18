@@ -27,6 +27,14 @@ medical care in all situations. In an emergency situation that threatens patient
 necessary information as quickly and easily as possible even if there is a privacy issue. Saving human life is more important
 than maintaining privacy. (Privacy is important too!)
 
+2. Technical considerations
+LasarOS is technically build on the Linnovate's open source MEAN stack template:  https://github.com/linnovate/mean
+
+
+3. Material & links
+Heroku and rest: https://devcenter.heroku.com/articles/mean-apps-restful-api
+
+
 
 
 
