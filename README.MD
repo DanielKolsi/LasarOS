@@ -33,7 +33,7 @@ MEAN.IO is licensed under the MIT License (Copyright (C) 2012-2014 Linnovate Tec
 
 3. Material & links
 Heroku and rest: https://devcenter.heroku.com/articles/mean-apps-restful-api
-
+Data: http://www.smartdatacollective.com/bernardmarr/235366/big-data-20-free-big-data-sources-everyone-should-know
 
 
 
