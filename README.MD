@@ -35,7 +35,13 @@ MEAN.IO is licensed under the MIT License (Copyright (C) 2012-2014 Linnovate Tec
 Heroku and rest: https://devcenter.heroku.com/articles/mean-apps-restful-api
 Data: http://www.smartdatacollective.com/bernardmarr/235366/big-data-20-free-big-data-sources-everyone-should-know
 
+4. Considerations against "worst case" scenerios
 
+LasarOS will be prepared against different forms of attacks including DDOS, trojans, ransomware, WannaCry etc.
+
+The main principle is that the maintainer / owner of LasarOS has all time full control and understanding of the system.
+It won't be something running in cloud (i.e. in someone else's computer) that could be put as ransomware if gained 
+control over.
 
 
 
