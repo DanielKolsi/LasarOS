@@ -3,7 +3,7 @@ LasarOS - Open Source for patient care (more cost-effective than Apotti)
 
 LasarOS - Avoiding epic failures in healthcare
 
-LasarOS - And the death shall rise!
+LasarOS - And the dead shall rise!
 
 1. Purpose of this project
 
