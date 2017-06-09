@@ -47,6 +47,10 @@ LasarOS will be prepared against different forms of attacks including DDOS, troj
 The main principle is that the maintainer / owner of LasarOS has all time full control and understanding of the system.
 It won't be something running in cloud (i.e. in someone else's computer) that could be put as ransomware if gained 
 control over.
+5. Other external material and links (data etc.)
+
+https://github.com/…/awesome-healthca…/blob/master/README.md
+
 
 
 
