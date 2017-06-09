@@ -50,7 +50,9 @@ control over.
 5. Other external material and links (data etc.)
 
 https://github.com/…/awesome-healthca…/blob/master/README.md
+
 OpenEMR: https://github.com/DanielKolsi/openemr
+
 OpenMRS (core): https://github.com/DanielKolsi/openmrs-core
 
 
