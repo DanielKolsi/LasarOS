@@ -31,6 +31,12 @@ medical care in all situations. In an emergency situation that threatens patient
 necessary information as quickly and easily as possible even if there is a privacy issue. Saving human life is more important
 than maintaining privacy. (Privacy is important too!)
 
+ACUTENESS
+The concept of acuteness and risk function: depends on multiple factors, e.g. age, medical history, existing diagnoses, 
+economic status of the patient, country, "personal story", existing data...
+
+If "acuteness" success of high risk, priority que should be used for providing medical care.
+
 2. Technical considerations
 LasarOS is technically build on the Linnovate's open source MEAN (MEAN.IO) stack template:  https://github.com/linnovate/mean
 MEAN.IO is licensed under the MIT License (Copyright (C) 2012-2014 Linnovate Technologies)
@@ -47,16 +53,16 @@ LasarOS will be prepared against different forms of attacks including DDOS, troj
 The main principle is that the maintainer / owner of LasarOS has all time full control and understanding of the system.
 It won't be something running in cloud (i.e. in someone else's computer) that could be put as ransomware if gained 
 control over.
+
 5. Other external material and links (data etc.)
 
 https://github.com/…/awesome-healthca…/blob/master/README.md
 
-OpenEMR: https://github.com/DanielKolsi/openemr
-
+Open electronic medical record systems:
+OpenEMR: https://github.com/DanielKolsi/openemr  
 OpenMRS (core): https://github.com/DanielKolsi/openmrs-core
 
-
-
+https://ci.openmrs.org/allPlans.action;jsessionid=0AC02F02D964EC9CA8CA14C9F41AF926
 
 
 
