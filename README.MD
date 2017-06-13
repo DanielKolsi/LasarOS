@@ -5,6 +5,11 @@ LasarOS - Avoiding epic failures in healthcare
 
 LasarOS - And the dead shall rise!
 
+0. Running the project from localhost
+   a) run Mongo DB daemon: ./mongod
+   b) run Gulp: ./gulp
+   c) Browse to: http://127.0.0.1/3000
+   
 1. Purpose of this project
 
 The purpose of LasarOS is to build an open source patient care "operating system". LasarOS refers both to Lasaros (https://sv.wikipedia.org/wiki/Lasaros) and to OS, which is an abbreviation of both Open Source and Operating System. 
