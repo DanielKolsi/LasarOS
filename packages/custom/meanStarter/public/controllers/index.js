@@ -42,7 +42,7 @@ angular.module('mean.system').controller('IndexController', ['$scope', 'Global',
 
     $scope.docs = [{
       text: 'You, dear patient',
-      link: 'meanStarter/views/users/register.html'
+      link: 'meanStarter/views/system/wiki.html'
     }, {
       text: 'My own story',
       link: 'http://www.faceop.com'
