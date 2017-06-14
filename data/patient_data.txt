@@ -1,4 +1,9 @@
 Data source: https://github.com/DanielKolsi/openemr/tree/master/sql
+https://github.com/DanielKolsi/openemr/blob/master/sql/example_patient_data.sql
+https://github.com/DanielKolsi/openemr/blob/master/sql/cvx_codes.sql
+https://en.wikipedia.org/wiki/Genomic_and_Medical_Data
+https://en.wikipedia.org/wiki/Electronic_health_record
+
 
 T INTO `patient_data`
 (`title`, `language`, `financial`, `fname`, `lname`, `mname`, `DOB`, `street`, `postal_code`, `city`, `state`,  `drivers_license`, `ss`, `occupation`, `phone_home`, `phone_biz`, `phone_contact`, `phone_cell`, `status`, `contact_relationship`, `date`, `sex`, `referrer`, `referrerID`, `providerID`, `email`, `ethnoracial`, `interpretter`, `migrantseasonal`, `family_size`, `monthly_income`, `homeless`, `financial_review`, `pubpid`, `pid`, `genericname1`, `genericval1`, `genericname2`, `genericval2`) VALUES ( 'Mr.', 'english', '', 'Ilias', 'Jenane', '', '1933-03-22', '145 N. East Street', '92111', 'La Mesa', 'CA', '', '111-11-2222', 'retired - school teacher', '(619) 555-2222', '(619) 555-3333', '(619) 555-1111', '', 'single', '', '2004-01-16 10:23:47', 'Female', 'Ynez Jones', '', 4, '', '', '', '', '', '', '', '0000-00-00 00:00:00', '22', 22,'','','','');
