@@ -70,6 +70,6 @@ OpenMRS (core): https://github.com/DanielKolsi/openmrs-core
 https://ci.openmrs.org/allPlans.action;jsessionid=0AC02F02D964EC9CA8CA14C9F41AF926
 
 
-
+----------
 
 
