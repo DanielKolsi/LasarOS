@@ -2,22 +2,31 @@
 <html>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 <body ng-app="">
-  <div class="left" layout="column" layout-align="center center" flex="60">
-    <h1>Patient Wiki</h2>
-    <p class="md-headline">Patient information system </p>
-    <div flex>
-    <img src="/meanStarter/assets/img/lasaros.png"/>
-    </div>
-  </div>
-  <div class="next-steps">
 
-  </div>
 <p>Patient information input (to be stored into MongoDB):</p>
 
 <textarea ng-model="patientInfo"></textarea>
-
+<button ng-click="window.alert('clicked')" >
+  -Save data
+</button>
+<button ng-click="retrieve()" >
+  Retrieve data
+</button>
 
 <h1>{{patientInfo}}</h1>
+<div class="left" layout="column" layout-align="center center" flex="80">
+  <h1>Patient Wiki</h2>
+  <p class="md-headline">Patient information system </p>
+  <div flex>
+  <img src="/meanStarter/assets/img/lasaros.png"/>
+  </div>
+</div>
+<div class="next-steps">
+
+</div>
+
+
+
 <!--  // The Package is past automatically as first parameter
   module.exports = function(MyPackage, app, auth, database) {
 
