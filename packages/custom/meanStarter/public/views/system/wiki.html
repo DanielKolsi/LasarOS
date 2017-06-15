@@ -1,41 +1,51 @@
-<!DOCTYPE html>
 <html>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-<body ng-app="">
+<head>
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+</head>
+<body ng-app="MyApp">
 
-<p>Patient information input (to be stored into MongoDB):</p>
+    <script type="text/javascript">
+        var app = angular.module('MyApp', [])
+        app.controller('MyController', function ($scope, $window) {
+            $scope.Save = function () {
+                if (typeof ($scope.Name) == "undefined" || $scope.Name == "") {
+                    $window.alert("Please enter your name!");
+                    return;
+                }
+                $window.alert("Save " + $scope.Name);
+            }
+            $scope.Get = function () {
+                if (typeof ($scope.Name) == "undefined" || $scope.Name == "") {
+                    $window.alert("Please enter your name!");
+                    return;
+                }
+                $window.alert("Get " + $scope.Name);
+            }
+        });
+    </script>
 
-<textarea ng-model="patientInfo"></textarea>
-<button ng-click="save(saving)" >
-  -Save data
-</button>
-<button ng-click="retrieve()" >
-  Retrieve data
-</button>
+    <textarea ng-model="patientInfo"></textarea>
+    <div ng-controller="MyController">
+        Name:
+        <input type="text" ng-model="Name" />
+        <br />
+        <br />
+        <input type="button" value="Save data" ng-click="Save()" />
+        <input type="button" value="Retrieve data" ng-click="Get()" />
+    </div>
 
-<h1>{{patientInfo}}</h1>
-<div class="left" layout="column" layout-align="center center" flex="80">
-  <h1>Patient Wiki</h2>
-  <p class="md-headline">Patient information system </p>
-  <div flex>
-  <img src="/meanStarter/assets/img/lasaros.png"/>
-  </div>
-</div>
-<div class="next-steps">
+    <h1>{{patientInfo}}</h1>
+    <div class="left" layout="column" layout-align="center center" flex="80">
+      <h1>Patient Wiki</h2>
+      <p class="md-headline">Patient information system </p>
+      <div flex>
+      <img src="/meanStarter/assets/img/lasaros.png"/>
+      </div>
+    </div>
+    <div class="next-steps">
 
-</div>
-
-
-<!--  // The Package is past automatically as first parameter
-  module.exports = function(MyPackage, app, auth, database) {
-
-    // example route
-    app.get('/myPackage/example/anyone', function (req,res,next) {
-      res.send('Anyone can access this');
-    });
-  };
--->
-
+    </div>
 
 </body>
 </html>
