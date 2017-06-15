@@ -9,13 +9,24 @@
     <img src="/meanStarter/assets/img/lasaros.png"/>
     </div>
   </div>
+  <div class="next-steps">
 
+  </div>
 <p>Patient information input (to be stored into MongoDB):</p>
 
 <textarea ng-model="patientInfo"></textarea>
 
-<h1>{{patientInfo}}</h1>
 
+<h1>{{patientInfo}}</h1>
+<!--  // The Package is past automatically as first parameter
+  module.exports = function(MyPackage, app, auth, database) {
+
+    // example route
+    app.get('/myPackage/example/anyone', function (req,res,next) {
+      res.send('Anyone can access this');
+    });
+  };
+-->
 
 
 </body>
